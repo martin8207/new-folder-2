@@ -156,11 +156,24 @@ footer {
 
 .social-links a {
     color: var(--text-color);
-    margin: 0 1rem;
-    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    font-size: 1.8rem;
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
     color: var(--accent-color);
+}
+
+/* Specific hover colors for each platform */
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-instagram:hover {
+    color: #E1306C;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
 } 
