@@ -89,5 +89,20 @@
             <p>&copy; 2024 Lampa Inc. Всички права запазени.</p>
         </div>
     </footer>
+
+    <script>
+        const heroTitle = document.querySelector('#hero h1');
+        const body = document.body;
+        
+        heroTitle.addEventListener('mouseenter', () => {
+            body.style.backgroundColor = '#ffffff';
+            body.style.color = '#1a1a1a';
+        });
+        
+        heroTitle.addEventListener('mouseleave', () => {
+            body.style.backgroundColor = '#1a1a1a';
+            body.style.color = '#ffffff';
+        });
+    </script>
 </body>
 </html> 
